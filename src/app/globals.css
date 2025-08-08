@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+.filepond--root{
+  @apply w-[320px] h-[150px] md:w-[500px] md:h-[180px] lg:w-[827px];
+}
+.filepond--panel .filepond--panel-root{
+  background-color: transparent !important;
+}
+.filepond--panel-root {
+  background-color: transparent !important;
+}
+@media screen and (min-width: 1024px) {
+  .filepond--drop-label{
+  height: 218px !important;
+  }
+}
+@media screen and (min-width: 426px) {
+  .filepond--drop-label{
+  height: 180px !important;
+  }
+}
+@media screen and (min-width: 320px) {
+  .filepond--drop-label{
+  height: 150px !important;
+  }
+}
