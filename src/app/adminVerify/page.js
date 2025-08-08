@@ -15,7 +15,7 @@ import FilePondPluginImagePreview from "filepond-plugin-image-preview";
 
 registerPlugin(FilePondPluginFileValidateType, FilePondPluginImagePreview);
 
-export default function adminVerify() {
+export default function AdminVerify() {
   const [files, setFiles] = useState([]);
     const [loading, setLoading] = useState(false);
     const [uploadInProgress, setUploadInProgress] = useState(false);
